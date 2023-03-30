@@ -24,14 +24,9 @@ body{
 .nav-bar{
 	background-color: black;
 	margin: 0px;
-	/*padding-left: 3rem;
-	padding-right: 3rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;*/
+
 	height: 8rem;
 	color: #EDF2F4;
-	/*border-color: aquamarine;
-	border-style: solid;*/
 	align-items: center;
 }
 
@@ -40,8 +35,6 @@ body{
 	width: 10%;
     height: 4rem;
 	border-radius: 6px;
-	/*border-style: solid;
-	border-color: aqua;*/
 	margin: 2rem;
 	overflow: hidden;
 }
@@ -50,11 +43,6 @@ body{
 	width: 100%; /* make the image fill the container */
 	height: 100%;
 	object-fit: cover; /* fit the image inside the container */
-}
-
-.logo-{
-	width: 100%;
-    height: auto;
 }
 
 ul{
@@ -78,7 +66,6 @@ a{
 }
 
 .container-navbar{
-	/*border-color: purple;*/
 	border-style: solid;
 	height: 4rem;
 	width: 40%;
@@ -95,9 +82,9 @@ nav {
 	position: absolute; /* set the position property to absolute */
 	top: 0; /* position the nav at the top of the container */
 	left: 0; /* position the nav at the left of the container */
- }
+}
 
- nav ul {
+nav ul {
 	height: 100%; /* set the height of the ul to be 100% */
 	width: 100%; /* set the width of the ul to be 100% */
 	list-style: none; /* remove the bullet points from the list */
@@ -106,30 +93,30 @@ nav {
 	display: flex; /* use flexbox to center the list items */
 	justify-content: center; /* horizontally center the list items */
 	align-items: center; /* vertically center the list items */
- }
+}
 
- nav ul {
+nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	text-align: center; /* center the list items horizontally */
- }
+}
  
- nav ul li {
+nav ul li {
 	display: inline-block;
 	margin: 0;
 	padding: 0 10px;
- }
+}
 
  
- nav ul li a {
+nav ul li a {
 	display: block;
 	text-decoration: none;
 	color: #333;
 	font-weight: bold;
 	padding: 10px;
 	font-family: sans-serif;
- }
+}
 
 .container-navbar , .logo{
 	display: inline-block;
@@ -148,8 +135,6 @@ nav {
 	display: inline-block;
 	font-size: x-large;
 	padding: 20px;
-	/*border-color: violet;
-	border-style: solid;*/
 	margin-bottom: 1rem;
 	padding-bottom: 2rem;
 }
@@ -166,20 +151,18 @@ li:hover{
 	margin-right: 2rem;
 	margin-bottom: 2rem;
 	padding: 0.5rem;
-	/*border-style: solid;
-	border-color: red;*/
 	display: flex;
 	justify-content: center;
 	height: 20em;
-  }
+}
 
 .row::after {
 	content: "";
 	clear: both;
 	display: table;
-  }
+}
   
-  .column {
+.column {
 	float: left;
 	padding: 0.5rem;
 	box-sizing: border-box;
@@ -190,13 +173,13 @@ li:hover{
 	transition: background-color 0.5s ease;
 	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 	background-color: white;
-  }
+}
 
-  .column:hover {
+.column:hover {
 	background-color: yellowgreen;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 	color: black;
-  }
+}
 
 footer{
 	background-color: black;
@@ -211,47 +194,40 @@ footer{
 	position: relative;
     left:0;
     right:0;
-	/*border-style: solid;
-	border-color: red;*/
 }
 
-  .container-footer {
+.container-footer {
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;
 	margin: 1rem;
 	border-style: solid;
-	/*border-color: blue;*/
 	height: 15rem;
 	color: black;
   }
   
-  .column-footer {
+.column-footer {
 	flex-basis: 30%;
-	/*border-style: solid;
-	border-color: pink;*/
 	text-align: center;
 	background-color: #EDF2F4;
 	color: black;
 	border-radius: 8px;
-  }
+}
 
-  .column-footer a{
+.column-footer a{
 	color: black;
 	margin: 1rem;
 	font-size: larger;
-  }
-  .column-footer li:hover{
+}
+
+.column-footer li:hover{
 	background-color: #EDF2F4;
-  }
-  .column-footer a:hover{
+}
+
+.column-footer a:hover{
 	color: #EDF2F4;
 	background-color: #EF233C;
-	/*border-radius: 6px;
-	border-color: #EF233C;
-	border-style: solid;*/
-
-  }
+}
 
 .header-{
 	margin: 0;
@@ -262,32 +238,34 @@ footer{
 	width: 100%; /* set the width and height of the container */
 	height: 20rem;
 	overflow: hidden; /* hide any overflow */
-  }
+}
   
-  .image-div img {
+.image-div img {
 	width: 100%; /* make the image fill the container */
 	height: 100%;
 	object-fit: cover; /* fit the image inside the container */
-  }
+}
 
-  .img{
+.img{
 	 /* make the image fill the container */
 	height: 90%;
 	padding: 0;
 	width: 33.33%;
 	position: relative;
-  }
-  .img img{
+}
+  
+.img img{
 	width: 100%; /* make the image fill the container */
 	height: 100%;
 	object-fit: cover; /* fit the image inside the container */
 	border-radius: 6px;
 	margin-bottom: 1.5rem;
-  }
-   p{
+}
+   
+p{
 	text-align: center;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
 
 h3{
 	text-align: center;
@@ -312,14 +290,14 @@ h3{
 	cursor: pointer;
 	border-radius: 8px;
 	
-  }
+}
 
-  .img-btn:hover{
+.img-btn:hover{
 	background-color: #2B2D42;
 	color: #EDF2F4;
-  }
+}
 
-  .btn{
+.btn{
 	position: absolute;
 	top: 80%;
 	left: 50%;
@@ -330,18 +308,14 @@ h3{
 	color: #EDF2F4;
 	cursor: pointer;
 	border-radius: 8px;
-  }
+}
 
 .text:hover{
 	color: #EDF2F4;
 	background-color: #EF233C;
 }
 
-
-  .containerEge {
+.containerEge {
 	display: flex;
-	/* flex-direction: row; <-- omit this, its default */
-	height: 16rem; /* full height */
-  }
-  
-
+	height: 16rem; 
+}
