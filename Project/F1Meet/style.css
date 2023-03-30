@@ -1,0 +1,347 @@
+/*
+	---Color-Palette---
+
+	Dark-Red 		#D90429
+	Light-Red 		#EF233C
+	Light-Grey		#EDF2F4
+	Gray			#8D99AE
+	Dark-BlueGray 	#2B2D42
+
+*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background-image: url(images/backgraound.jpg);
+}
+
+.nav-bar{
+	background-color: black;
+	margin: 0px;
+	/*padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;*/
+	height: 8rem;
+	color: #EDF2F4;
+	/*border-color: aquamarine;
+	border-style: solid;*/
+	align-items: center;
+}
+
+.logo{
+	max-width: 10%;
+	width: 10%;
+    height: 4rem;
+	border-radius: 6px;
+	/*border-style: solid;
+	border-color: aqua;*/
+	margin: 2rem;
+	overflow: hidden;
+}
+
+.logo img{
+	width: 100%; /* make the image fill the container */
+	height: 100%;
+	object-fit: cover; /* fit the image inside the container */
+}
+
+.logo-{
+	width: 100%;
+    height: auto;
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+a:link { text-decoration: none;	color: #EDF2F4 }
+
+
+a:visited { text-decoration: none; color: #EDF2F4}
+
+
+a:hover { text-decoration: none; color: black; transform: scale(1.1);}
+
+
+a:active { text-decoration: none;color:black;transform: scale(0.9); }
+
+a{
+	transition: all 0.3s ease-in-out;
+}
+
+.container-navbar{
+	/*border-color: purple;*/
+	border-style: solid;
+	height: 4rem;
+	width: 40%;
+	float: right;
+	position: relative; 
+	display: flex; /* use flexbox to center the navbar */
+	justify-content: center; /* horizontally center the navbar */
+	align-items: center; /* vertically center the navbar */
+}
+
+nav {
+	height: 100%; /* set the height of the nav to be 100% */
+	width: 100%; /* set the width of the nav to be 100% */
+	position: absolute; /* set the position property to absolute */
+	top: 0; /* position the nav at the top of the container */
+	left: 0; /* position the nav at the left of the container */
+ }
+
+ nav ul {
+	height: 100%; /* set the height of the ul to be 100% */
+	width: 100%; /* set the width of the ul to be 100% */
+	list-style: none; /* remove the bullet points from the list */
+	margin: 0; /* remove any margin from the list */
+	padding: 0; /* remove any padding from the list */
+	display: flex; /* use flexbox to center the list items */
+	justify-content: center; /* horizontally center the list items */
+	align-items: center; /* vertically center the list items */
+ }
+
+ nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center; /* center the list items horizontally */
+ }
+ 
+ nav ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0 10px;
+ }
+
+ 
+ nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	padding: 10px;
+	font-family: sans-serif;
+ }
+
+.container-navbar , .logo{
+	display: inline-block;
+	margin: 1.5rem;
+}
+
+.container-navbar a:hover{
+	color: #EDF2F4;
+}
+
+.nav-menu-container{
+	height: 2rem;
+}
+
+.nav-menu-container li{
+	display: inline-block;
+	font-size: x-large;
+	padding: 20px;
+	/*border-color: violet;
+	border-style: solid;*/
+	margin-bottom: 1rem;
+	padding-bottom: 2rem;
+}
+
+li:hover{
+	color: #EDF2F4;
+	background-color: #EF233C;
+	border-radius: 6px;
+}
+
+.row {
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	padding: 0.5rem;
+	/*border-style: solid;
+	border-color: red;*/
+	display: flex;
+	justify-content: center;
+	height: 20em;
+  }
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .column {
+	float: left;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	border-style: solid;
+	border-radius: 16px;
+	margin: 1rem;
+	width: 33.33%;
+	transition: background-color 0.5s ease;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	background-color: white;
+  }
+
+  .column:hover {
+	background-color: yellowgreen;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	color: black;
+  }
+
+footer{
+	background-color: black;
+	margin: 0;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	height: 22rem;
+	color: white;
+    bottom: 0px;
+	position: relative;
+    left:0;
+    right:0;
+	/*border-style: solid;
+	border-color: red;*/
+}
+
+  .container-footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	margin: 1rem;
+	border-style: solid;
+	/*border-color: blue;*/
+	height: 15rem;
+	color: black;
+  }
+  
+  .column-footer {
+	flex-basis: 30%;
+	/*border-style: solid;
+	border-color: pink;*/
+	text-align: center;
+	background-color: #EDF2F4;
+	color: black;
+	border-radius: 8px;
+  }
+
+  .column-footer a{
+	color: black;
+	margin: 1rem;
+	font-size: larger;
+  }
+  .column-footer li:hover{
+	background-color: #EDF2F4;
+  }
+  .column-footer a:hover{
+	color: #EDF2F4;
+	background-color: #EF233C;
+	/*border-radius: 6px;
+	border-color: #EF233C;
+	border-style: solid;*/
+
+  }
+
+.header-{
+	margin: 0;
+	padding: 0;
+}
+
+.image-div {
+	width: 100%; /* set the width and height of the container */
+	height: 20rem;
+	overflow: hidden; /* hide any overflow */
+  }
+  
+  .image-div img {
+	width: 100%; /* make the image fill the container */
+	height: 100%;
+	object-fit: cover; /* fit the image inside the container */
+  }
+
+  .img{
+	 /* make the image fill the container */
+	height: 90%;
+	padding: 0;
+	width: 33.33%;
+	position: relative;
+  }
+  .img img{
+	width: 100%; /* make the image fill the container */
+	height: 100%;
+	object-fit: cover; /* fit the image inside the container */
+	border-radius: 6px;
+	margin-bottom: 1.5rem;
+  }
+   p{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+h3{
+	text-align: center;
+	font-size: xx-large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.card-type1{
+	color: #EDF2F4;
+	background-color: #EF233C;
+}
+
+.img-btn {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px 20px;
+	border: none;
+	background-color: #EF233C;
+	color: #EDF2F4;
+	cursor: pointer;
+	border-radius: 8px;
+	
+  }
+
+  .img-btn:hover{
+	background-color: #2B2D42;
+	color: #EDF2F4;
+  }
+
+  .btn{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px 20px;
+	border: none;
+	background-color: #EF233C;
+	color: #EDF2F4;
+	cursor: pointer;
+	border-radius: 8px;
+  }
+
+.text:hover{
+	color: #EDF2F4;
+	background-color: #EF233C;
+}
+
+
+  .containerEge {
+	display: flex;
+	/* flex-direction: row; <-- omit this, its default */
+	height: 16rem; /* full height */
+  }
+  
+
