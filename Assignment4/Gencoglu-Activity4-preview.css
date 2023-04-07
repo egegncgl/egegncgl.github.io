@@ -3,17 +3,25 @@ label{
 
     display: inline-block;
     width: 120px;
+    margin-top: 0.3rem;
+    margin-top: 0.3rem;
 }
 
 input{
     display: inline-block;
+    margin-top: 0.3rem;
+    margin-top: 0.3rem;
 }
 
 .button{
     margin-left: 125px;
     border-radius: 4px;
+    margin-top: 0.3rem;
+    margin-top: 0.3rem;
 }
 
 .dropdown{
     margin-left: 0;
+    margin-top: 0.3rem;
+    margin-top: 0.3rem;
 }
