@@ -29,7 +29,7 @@
                                                                     "CAD/EUR" => 0.67,
                                                                     "USD/USD" => 1,
                                                                     "CAD/CAD" => 1,
-                                                                    "EUR/EUR" => 1,
+                                                                    "EUR/EUR" => 1
                                                                 );
                                                                 if (isset($_POST['convert'])) {
                                                                     $from_currency = $_POST['from_currency'];
