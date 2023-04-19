@@ -1,4 +1,4 @@
-let time = 2500;
+let time = 500;
 let level = 0;
 let clickCounter = 0;
 
