@@ -1,0 +1,11 @@
+#btn{
+    background-color: crimson;
+    color: white;
+    border-radius: 8px;
+    height: 2rem;
+    border-style: none;
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
