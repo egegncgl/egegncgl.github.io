@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity8</title>
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+	<script src="Gençoğlu-Activity8.js"></script>
+	<link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="Gençoğlu-Activity8.css">
+
+</head>
+<body>
+    <form action="/">
+		<div class="container">
+			<label for="language">What programming language do you know?</label>
+			<input id="language" type="text" required />
+		</div>
+		
+		<div class="container">
+			<label for="birthday">What is your birthday?</label>
+			<input id="birthday" type="text">
+		</div>
+		
+		<div class="container">
+			<label for="email">Email Address</label>
+			<input id="email" type="email" placeholder="Enter a valid email address" required>
+		</div>
+		
+		<div class="container">
+			<label for="website">Website</label>
+			<input id="website" type="url" required pattern="https?://.+">
+		</div>
+		<button type="submit">submit</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 50px;
+
+}
+form {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+label {
+    width:220px;
+}
+input {
+    padding:4px;
+    border-radius: 4px;
+}
+.container {
+    display:flex;
+    gap:20px;
+}
+button {
+    width:100px;
+}
+
+input:required:invalid, input:focus:invalid {
+    border:2px solid red;
+  }
+
+  .ui-datepicker {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: white;
+  }
+  
+  .ui-datepicker-header {
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    color:white;
+  }
+  
+  .ui-datepicker-calendar th {
+    background-color: black;
+    color: white;
+  }
+  
+  .ui-datepicker-calendar td {
+    background-color: black;
+    color: white;
+  }
+  
+  .ui-datepicker-calendar .ui-datepicker-current-day {
+    background-color: black;
+    color: white;
+  }
+  
+  .ui-datepicker-calendar .ui-datepicker-unselectable .ui-state-disabled {
+    color: black;
+    background-color: black;
+  }
