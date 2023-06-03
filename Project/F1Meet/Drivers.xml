@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<f1_drivers>
+  <driver>
+    <name>Lewis Hamilton</name>
+    <team>Mercedes</team>
+  </driver>
+  <driver>
+    <name>Max Verstappen</name>
+    <team>Red Bull Racing</team>
+  </driver>
+   <driver>
+    <name>Sebastian Vettel</name>
+    <team>Aston Martin</team>
+  </driver>
+  <driver>
+    <name>Kimi Räikkönen</name>
+    <team>Alfa Romeo Racing</team>
+  </driver>
+</f1_drivers>

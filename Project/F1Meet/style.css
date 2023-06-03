@@ -21,6 +21,10 @@ body{
 	background-image: url(images/backgraound.jpg);
 }
 
+.text,.text2{
+	text-align: center;
+}
+
 .nav-bar{
 	background-color: black;
 	margin: 0px;
